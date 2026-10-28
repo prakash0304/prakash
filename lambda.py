@@ -46,14 +46,14 @@ print('Strong Number' if total == n else 'Not Strong')
     if total == n:
         print(n)''' 
 # Check Armstrong number
-n = int(input("Enter a number: "))
+'''n = int(input("Enter a number: "))
 temp = n
 total = 0
 while temp > 0:
     d = temp % 10     
     total += d ** 3
     temp //= 10  
-print(n, "is an Armstrong number" if total == n else "is not an Armstrong number") 
+print(n, "is an Armstrong number" if total == n else "is not an Armstrong number")''' 
 
 # Armstrong numbers from 1 to 1000
 '''for n in range(1, 1001):
